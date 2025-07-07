@@ -9,7 +9,7 @@ public class TicTacToeGame extends JFrame implements ActionListener {
     private final String CAT = "\uD83D\uDC31";
 
     public TicTacToeGame() {
-        // Show welcome message before UI loads
+
         JOptionPane.showMessageDialog(null, "Welcome to Tic Tac Toe!\nPlayer 1 = 🐶, Player 2 = 🐱");
 
         setTitle("Tic Tac Toe - Dog vs Cat");
